@@ -2,17 +2,47 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="mini_logo.png" sizes="32x32">
     <title>SPEADDEATH</title>
+    <style>
+        header {
+            display: flex;
+            align-items: center; /* centre verticalement le logo */
+            padding: 10px 20px;
+            background-color: #f2f2f2; /* couleur de fond optionnelle */
+        }
+        header img {
+            height: 60px; /* taille du logo */
+            width: auto;  /* conserve les proportions */
+        }
+
+        header h1 {
+            margin-left: 15px;
+            font-size: 24px;
+        }
+        body {
+            background-image: url('images/logo.png'); /* chemin de ton logo */
+            background-repeat: no-repeat;   /* empêche la répétition de l'image */
+            background-position: center top; /* positionne le logo en haut et centré */
+            background-size: 150px auto;    /* taille du logo (largeur 150px, hauteur proportionnelle) */
+            background-attachment: fixed;   /* le logo reste en place lors du scroll */
+            font-family: Arial, sans-serif;
+        }
+
+    </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
     <header>
+        <img src="logo_p.jpg" alt="logo du site" >
         <h1>BIENVENUE SUR LE SITE DE SPEADDEATH</h1>
+        
     </header>
 
     <main>
         <section>
+            
             <h2>Description du jeu</h2>
             <p>
                 Le produit est un jeu multijoueur compétitif asymétrique, centré sur la vitesse,
@@ -45,7 +75,7 @@
             </p>
         </section>
 
-        <section>
+        <section><img src="logo_p.jpg" alt="logo de l'entreprise" width="300">
             <h2>TIME RUNNER</h2>
             <p>
                 Petite startup partenaire de EPITA en création de jeu vidéo.
